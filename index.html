@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Countdown Timer</h1>
+    <form>
+      <label for="duration">Duration (in minutes):</label>
+      <input type="number" id="duration" name="duration" min="1">
+      <button type="button" onclick="startTimer()">Start</button>
+    </form>
+    <div id="countdown"></div>
+    <audio id="alertSound" src="alert.mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
