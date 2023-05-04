@@ -2,6 +2,7 @@
     font-size: 48px;
     text-align: center;
     margin-top: 50px;
+    color: aliceblue;
     
 }
 body{
@@ -18,4 +19,7 @@ form {
 }
 label{
     color: antiquewhite;
+}
+input{
+    color: rgb(29, 30, 31);
 }
